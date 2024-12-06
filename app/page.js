@@ -50,19 +50,17 @@ export default function Home() {
   // 程序列表数据
   const programs = [
     {
-      name: "复制禁用克星",
-      // 更新为实际的文件路径
-      icon: "/复制禁用克星/复制禁用克星.ico",
-      description: "这是一个能够绕过浏览器复制限制的小工具。当你遇到无法复制的网页内容时,只需要：",
+      name: "CopyLiberty",
+      icon: "/CopyLiberty/CopyLiberty.ico",
+      description: "这是一个能够突破浏览器复制限制的高级工具。当你遇到无法复制的网页内容时,只需要：",
       steps: [
         "选中想要复制的文本",
         "按下快捷键 CTRL + ALT + C",
-        "文本就会被成功复制到剪贴板"
+        "文本就会被成功解放到剪贴板"
       ],
-      tip: "适用于各种禁止复制的网站,让你轻松复制需要的内容。",
-      fileName: "/复制禁用克星/复制禁用克星.exe" // 更新为实际的文件名
-    },
-    // 后续可以在这里添加更多程序...
+      tip: "适用于各种限制复制的网站,让你获得真正的复制自由。",
+      fileName: "/CopyLiberty/CopyLiberty.exe"
+    }
   ];
 
   return (
